@@ -1,0 +1,159 @@
+:root {
+    --almost-dark: #373A3C;
+    --light-grey: #DDDDDD;
+    --grey: #373A3C31;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    color: var(--almost-dark);
+    font-size: 16px;
+}
+
+.nav-ricomida {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.fs-40{
+    font-size: 40px;
+}
+
+.fs-30{
+    font-size: 30px !important;
+}
+
+.btn-header, .btn-newslatter {
+    border: 1px solid var(--light-grey);
+}
+
+.carousel-indicators {
+    top: 105%;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    background-color: var(--almost-dark);
+    width: 11px;
+    height: 11px;
+}
+.carousel-indicators button:active{
+    background-color: var(--grey);
+}
+
+.newslatter {
+    padding: 150px 0px !important;
+    word-spacing: 10px;
+}
+
+.newslatter p {
+    font-size: 18pt;
+}
+
+.newslatter p span {
+    font-family: 'Lobster', cursive;
+}
+
+.btn-newslatter {
+    padding: 7px 105px;
+}
+
+footer {
+    font-family: 'Lobster', cursive;
+}
+
+footer h2 {
+    font-size: 37pt;
+}
+
+@media (max-width: 575.98px) { 
+    .btn-header {
+        margin-right: 1px !important;
+        margin-left: 1px !important;
+        padding: 15px 5px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-text {
+        display: -webkit-box;
+        display: box;
+        box-orient: vertical;
+        -webkit-box-orient: vertical;
+        line-clamp: 4;
+        -webkit-line-clamp: 4;
+        overflow-y: hidden;
+    }
+
+    .card-title {
+        display: -webkit-box;
+        display: box;
+        box-orient: vertical;
+        -webkit-box-orient: vertical;
+        line-clamp: 1;
+        -webkit-line-clamp: 1;
+        overflow-y: hidden;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .header_class {
+        border-top: none !important;
+    }
+
+    .header_texto div h2, 
+    .header_texto div h5 {
+        text-align: left !important;
+    }
+
+    .header_texto div h2 {
+        padding-right: 160px;
+        padding-top: 51px;
+    }
+
+    .card-text {
+        display: -webkit-box;
+        display: box;
+        box-orient: vertical;
+        -webkit-box-orient: vertical;
+        line-clamp: 4;
+        -webkit-line-clamp: 4;
+        overflow-y: hidden;
+    }
+
+    .card-title {
+        display: -webkit-box;
+        display: box;
+        box-orient: vertical;
+        -webkit-box-orient: vertical;
+        line-clamp: 1;
+        -webkit-line-clamp: 1;
+        overflow-y: hidden;
+    }
+
+    .btns-header {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) { 
+    
+    .header_class {
+        border-top: none !important;
+    }
+
+    .header_texto div h2, 
+    .header_texto div h5 {
+        text-align: left !important;
+    }
+
+    .header_texto div h2 {
+        padding-right: 160px;
+        padding-top: 51px;
+    } 
+
+    .btns-header {
+        text-align: left;
+    }
+
+ }
